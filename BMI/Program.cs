@@ -27,10 +27,11 @@ namespace BMI
                     }
                     else
                     {
+                        Console.WriteLine("Zadej svou výšku (m)=");
+                        výška = double.Parse(Console.ReadLine());
 
-
+                        var BMI = váha/výška*výška
                     }
-
                 }
             
             }
