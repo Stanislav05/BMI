@@ -37,3 +37,11 @@ namespace BMI
             }
         }
     }
+    Console.Write("Set weight of all place (g)=");
+                    allScrewsWeight = double.Parse(Console.ReadLine());
+
+    var screwsCount = allScrewsWeight / oneScrewsWeight;
+    screwsCount = Math.Floor(screwsCount);
+                    Console.WriteLine($"You have {screwsCount} screws.");
+
+                    Console.ReadLine();
